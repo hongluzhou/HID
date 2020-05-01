@@ -3,7 +3,7 @@
 ### Note: The code will be released after formal publication.   
       
 * hid.py is the framework.  
-* utils.py has many general-purpose function including "upscaling" and "downscaling" (both are called by hierMID.py). 
+* utils.py has many general-purpose function including "upscaling" and "downscaling" (both are called by HID.py). 
 * metrics.py has function implementation for various metrics.   
 * test.py is the code to run testing and get the testing performance, by calling "test" function from specific model (e.g. CSDK).     
    
