@@ -1,6 +1,6 @@
 # HID
    
-### Note: The code will be released after formal publication.   
+### Note: The code will be released soon.   
       
 * hid.py is the framework.  
 * utils.py has many general-purpose function including "upscaling" and "downscaling" (both are called by hid.py). 
