@@ -1,4 +1,8 @@
+__pycache__
 .ipynb_checkpoints/
-./data/.ipynb_checkpoints/
-./data
+data/.ipynb_checkpoints/
+data
+data/digg_500user.zip
+data/digg_500user/
+data/digg_CDK_HAC_s2_p1dot2/
 

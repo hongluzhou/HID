@@ -1,0 +1,22 @@
+{'corpus_path': './data/digg_500user/', 'output_path': './data/digg_CDK_s0', 'diffuser': 'CDK', 'num_scales': 0, 'test_epoch': 8000, 'embedding_scale': 0}
+the number of users: 500
+the number of information: 3553
+the number of diffusion paths: 711
+==============Testing START
+obtaining prediction result for testing cascades...
+list of args are prepared. going to use multiprocessing (cores: 48)
+perform prediction took 3.87 s
+Testing MAP: 0.1395
+P@3 metric value: 0.2663
+P@5 metric value: 0.236
+P@10 metric value: 0.2013
+P@50 metric value: 0.1409
+P@100 metric value: 0.1147
+Testing Precision: 0.3261
+Testing Recall: 0.3261
+Testing F1: 0.3261
+Testing AUC: 0.5358
+Testing Accuracy: 0.6423
+==============Testing END
+Finished!
+took 7 s
