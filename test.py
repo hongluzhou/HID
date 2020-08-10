@@ -13,9 +13,7 @@ import random
 import matplotlib.pyplot as plt
 random.seed(0)
 
-import CSDK
 import CDK
-import FOREST 
 
 from utils import hastook
 

@@ -33,13 +33,18 @@ Hyper-parameters:
 - p: coarse_portion  
 - upscaling operator: upoperator
    
-How to run HID without using upscaling and downscaling (just run baseline) for training and learning:    
-```time python hid.py --corpus_path=./data/digg_500user/ --output_path=./data/digg_CDK_s0 --num_scales=0 --max_epochs=8000 --diffuser=CDK```
+#### How to run HID without using upscaling and downscaling (just run baseline) for training and learning:    
+```time python hid.py --corpus_path=./data/digg_500user/ --output_path=./data/digg_CDK_s0 --num_scales=0 --max_epochs=8000 --diffuser=CDK```    
     
-How to run HID with upscaling and downscaling for training and learning (e.g. s=2, p=1.2):         
+See [training log](https://github.com/hongluzhou/HID/blob/master/digg_CDK_s0_train_log.log).  
+See [testing log](https://github.com/hongluzhou/HID/blob/master/digg_CDK_s0_test_log.log).
+    
+#### How to run HID with upscaling and downscaling for training and learning (e.g. s=2, p=1.2):         
 ```time python hid.py --corpus_path=./data/digg_500user/ --output_path=./data/digg_CDK_HAC_s2_p1dot2 --num_scales=2 --coarse_portion=1.2 --max_epochs=2666 --diffuser=CDK --upoperator=HAC```    
     
-How to check testing performance (first, modify config in test.py):
+See [training log](https://github.com/hongluzhou/HID/blob/master/digg_CDK_HAC_s2_p1dot2_train_log.log).   
+See [testing log](https://github.com/hongluzhou/HID/blob/master/digg_CDK_HAC_s2_p1dot2_test_log.log).
+    
+#### How to check testing performance (first, modify config in test.py):
 ```time python test.py```
-   
    
